@@ -1,0 +1,10 @@
+config {
+    recordLinks {
+        example {
+            forceLink = 0
+            typolink {
+                parameter = 1
+            }
+        }
+    }
+}

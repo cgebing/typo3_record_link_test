@@ -1,0 +1,13 @@
+TCEMAIN {
+    linkHandler {
+        example {
+            handler = TYPO3\CMS\Backend\LinkHandler\RecordLinkHandler
+            label = Record Link
+            configuration {
+                table = tx_record_link_record
+            }
+            displayAfter = url
+            scanBefore = page
+        }
+    }
+}

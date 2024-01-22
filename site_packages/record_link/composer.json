@@ -1,0 +1,14 @@
+{
+  "name": "acme/record_link",
+  "type": "typo3-cms-extension",
+  "autoload": {
+    "psr-4": {
+      "Acme\\RecordLink\\": "Classes/"
+    }
+  },
+  "extra": {
+    "typo3/cms": {
+      "extension-key": "record_link"
+    }
+  }
+}
